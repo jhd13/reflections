@@ -1,0 +1,13 @@
+What happens when you initialize a repository? Why do you need to do it?
+Git starts tracking the files in the repo.
+Before you start tracking the content of the files, git doesn't know you care about tracking those files.
+When you do start tracking the files via git init, git creates and starts maintaining a folder with metadata about the files.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area consists of a list of references to a subset of the files in the working directory.
+These files, to the best of my understanding, aren't yet part of the repo so they're new in the working directory.
+This allows one or more files to be in the working directory without being added.
+You specify the subset you want to add to the repo by adding them to the staging area.
+When the staging area has the set of files you want to commit, you can then commit exactly those files.
+Allows you not to just check in all files in a folder, but chose the correct ones.
+Also allows you to check them in as part of logical subsets.
