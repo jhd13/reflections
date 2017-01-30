@@ -14,3 +14,9 @@ Also allows you to check them in as part of logical subsets.
 
 How can you use the staging area to make sure you have one commit per logical change?
 You can change a number of files but not add them all to the staging area.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When you want to make a major change.
+When you want to make an experimental change.
+When you want to make a change that is different from someone else's pending changes.
+Branches help in these situations by allowing you to make and commit changes without affecting the master branch.
