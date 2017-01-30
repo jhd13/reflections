@@ -20,3 +20,7 @@ When you want to make a major change.
 When you want to make an experimental change.
 When you want to make a change that is different from someone else's pending changes.
 Branches help in these situations by allowing you to make and commit changes without affecting the master branch.
+
+How do the diagrams help you visualize the branch structure?
+They omit details and let you see all branches in a graphical way.
+You can easily see which parent is in common among all branches included, which parents are reachable which tips.
