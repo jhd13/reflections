@@ -24,3 +24,8 @@ Branches help in these situations by allowing you to make and commit changes wit
 How do the diagrams help you visualize the branch structure?
 They omit details and let you see all branches in a graphical way.
 You can easily see which parent is in common among all branches included, which parents are reachable which tips.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging two branches results in one branch that contains the changes made in both branches.
+We represent it in the diagram in a way that displays graphically the history behind each change, both what is the "common ancestry"
+between two commits and which changes are independent between them.
