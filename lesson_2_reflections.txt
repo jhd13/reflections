@@ -4,13 +4,10 @@ Before you start tracking the content of the files, git doesn't know you care ab
 When you do start tracking the files via git init, git creates and starts maintaining a folder with metadata about the files.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-The staging area consists of a list of references to a subset of the files in the working directory.
-These files, to the best of my understanding, aren't yet part of the repo so they're new in the working directory.
-This allows one or more files to be in the working directory without being added.
-You specify the subset you want to add to the repo by adding them to the staging area.
-When the staging area has the set of files you want to commit, you can then commit exactly those files.
-Allows you not to just check in all files in a folder, but chose the correct ones.
-Also allows you to check them in as part of logical subsets.
+The staging area is a subset of the files in the working directory you manually identify for inclusion in an upcoming commit.
+It can consist of new files destined to be in the repo or existing files that have changed.
+This allows you to decide explicitly among your local changes which ones you want to commit, those that are ready to commit
+and part of a logical change.
 
 How can you use the staging area to make sure you have one commit per logical change?
 You can change a number of files but not add them all to the staging area.
@@ -23,7 +20,7 @@ Branches help in these situations by allowing you to make and commit changes wit
 
 How do the diagrams help you visualize the branch structure?
 They omit details and let you see all branches in a graphical way.
-You can easily see which parent is in common among all branches included, which parents are reachable which tips.
+You can easily see which parent is in common among all branches included, which parents are reachable from which tips.
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Merging two branches results in one branch that contains the changes made in both branches.
