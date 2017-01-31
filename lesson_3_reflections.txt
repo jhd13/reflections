@@ -30,3 +30,15 @@ What is the benefit of having a copy of the last known state of the remote store
     Then before trying to merge I can take a look at the changes and if needed discuss with the person who made the changes.
     I can see those offline, determine what conflicts there are, and work those out.
     Then when I'm ready I can merge the changes and fix the conflicts.
+    
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+    For team work we'd need different source control software. But assuming no source control software...
+    To work on source code without Git or Github I'd probably use Dropbox of another shared file system.
+    My collaborators and I would be able to very easily save changes when needed in the master copy of the files.
+    That would be about the only good part about it.
+    We would soon run into issues where more than one of us might try to change the same file and might overwrite each other's changes.
+    We'd probably resort to working on our own copy of the source files and letting each other know what piece we are working on.
+    We'd need to make sure not to work in the same files.
+    It would be close to impossible to get work done without major issues coming up due to conflicting changes.
+    
