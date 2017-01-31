@@ -1,46 +1,54 @@
 How did viewing a diff between two versions of a file help you see the bug that was introduced?
-Viewing a diff between two versions made it easier to see what I changed.
-Earlier in the lesson we did a visual diff.
-In that case I had to look very carefully to find what was different.
-So, I really like using (in my case) WinMerge to see the differences.
+
+    Viewing a diff between two versions made it easier to see what I changed.
+    Earlier in the lesson we did a visual diff.
+    In that case I had to look very carefully to find what was different.
+    So, I really like using (in my case) WinMerge to see the differences.
 
 How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
-I could easily go back to an earlier version if needed.
-I can easily see what changed.
-When a bug comes up at a point in time I might be able to more easily tell which change caused the bug.
-I could see who changed the file.
 
-What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
-Some pros:
-With manual choice, you are more likely to get commits that at least kind of make sense.
-You're not likely to get a change in "mid thought" because the developer has made an explicit decision this is a good change to commit.
-Likely fewer commits than automatic commits.
-Some cons:
-Maybe you'll lose changes if you don't thinkg to commit for a long time.
-You have to remember to commit.
+    I could easily go back to an earlier version if needed.
+    I can easily see what changed.
+    When a bug comes up at a point in time I might be able to more easily tell which change caused the bug.
+    I could see who changed the file.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, 
+vs having versions automatically saved, like Google Docs does?
+
+    Some pros:
+    With manual choice, you are more likely to get commits that at least kind of make sense.
+    You're not likely to get a change in "mid thought" because the developer has made an explicit decision this is a good change to commit.
+    Likely fewer commits than automatic commits.
+    Some cons:
+    Maybe you'll lose changes if you don't thinkg to commit for a long time.
+    You have to remember to commit.
 
 Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
-Git allows saving multiple files in one commit because a single logical change in a program very often requires a change in multiple files.
-Those multiple changes are likely required for a program to even compile.
-Others that treat files separately aren't designed for programming.
-The use cases for those like Google Docs are primarily about editing single non-interrelated docs.
-There could be some situations in which multiple Google Docs or files from a different version control system would benefit from multi-file commits.
-But there's probably not enough demand to justify the added complexity to the programs.
+
+    Git allows saving multiple files in one commit because a single logical change in a program very often requires a change in multiple files.
+    Those multiple changes are likely required for a program to even compile.
+    Others that treat files separately aren't designed for programming.
+    The use cases for those like Google Docs are primarily about editing single non-interrelated docs.
+    There could be some situations in which multiple Google Docs or files from a different version control system would benefit from multi-file commits.
+    But there's probably not enough demand to justify the added complexity to the programs.
 
 How can you use the commands git log and git diff to view the history of files?
-Git log lists all the commits made in a repo.
-These commits amount to changes in the files within that repo.
-It gives an identifier for each change.
-You can then give those identifiers as input to the git diff command to see what changed between those two commits.
+
+    Git log lists all the commits made in a repo.
+    These commits amount to changes in the files within that repo.
+    It gives an identifier for each change.
+    You can then give those identifiers as input to the git diff command to see what changed between those two commits.
 
 How might using version control make you more confident to make changes that could break something?
-With version control, you can feel free to try changes that might break something.
-If they work and don't break anything, you can keep the changes.
-If they end up breaking something, even down the road, you can undo them.
-Without version control, you might always be afraid of making a change on the correct grounds that if you make a change it's hard to undo it.
+
+    With version control, you can feel free to try changes that might break something.
+    If they work and don't break anything, you can keep the changes.
+    If they end up breaking something, even down the road, you can undo them.
+    Without version control, you might always be afraid of making a change on the correct grounds that if you make a change it's hard to undo it.
 
 Now that you have your workspace set up, what do you want to try using Git for?
-Aside from my upcoming software projects, I'd like to try using get for a collection of music files I'm working on.
-Lilypond lets you create musical scores and parts using text markup.
-Although it's very powerful and useful, it also isn't great at letting you know where errors are when errors are present.
-Managing changes through version control will let me make changes fearlessly.
+
+    Aside from my upcoming software projects, I'd like to try using get for a collection of music files I'm working on.
+    Lilypond lets you create musical scores and parts using text markup.
+    Although it's very powerful and useful, it also isn't great at letting you know where errors are when errors are present.
+    Managing changes through version control will let me make changes fearlessly.

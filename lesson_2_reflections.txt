@@ -1,34 +1,41 @@
 What happens when you initialize a repository? Why do you need to do it?
-Git starts tracking the files in the repo.
-Before you start tracking the content of the files, git doesn't know you care about tracking those files.
-When you do start tracking the files via git init, git creates and starts maintaining a folder with metadata about the files.
+
+    Git starts tracking the files in the repo.
+    Before you start tracking the content of the files, git doesn't know you care about tracking those files.
+    When you do start tracking the files via git init, git creates and starts maintaining a folder with metadata about the files.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-The staging area is a subset of the files in the working directory you manually identify for inclusion in an upcoming commit.
-It can consist of new files destined to be in the repo or existing files that have changed.
-This allows you to decide explicitly among your local changes which ones you want to commit, those that are ready to commit
-and part of a logical change.
+
+    The staging area is a subset of the files in the working directory you manually identify for inclusion in an upcoming commit.
+    It can consist of new files destined to be in the repo or existing files that have changed.
+    This allows you to decide explicitly among your local changes which ones you want to commit, those that are ready to commit
+    and part of a logical change.
 
 How can you use the staging area to make sure you have one commit per logical change?
-You can change a number of files but not add them all to the staging area.
+
+    You can change a number of files but not add them all to the staging area.
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-When you want to make a major change.
-When you want to make an experimental change.
-When you want to make a change that is different from someone else's pending changes.
-Branches help in these situations by allowing you to make and commit changes without affecting the master branch.
+
+    When you want to make a major change.
+    When you want to make an experimental change.
+    When you want to make a change that is different from someone else's pending changes.
+    Branches help in these situations by allowing you to make and commit changes without affecting the master branch.
 
 How do the diagrams help you visualize the branch structure?
-They omit details and let you see all branches in a graphical way.
-You can easily see which parent is in common among all branches included, which parents are reachable from which tips.
+
+    They omit details and let you see all branches in a graphical way.
+    You can easily see which parent is in common among all branches included, which parents are reachable from which tips.
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
-Merging two branches results in one branch that contains the changes made in both branches.
-We represent it in the diagram in a way that displays graphically the history behind each change, both what is the "common ancestry"
-between two commits and which changes are independent between them.
+
+    Merging two branches results in one branch that contains the changes made in both branches.
+    We represent it in the diagram in a way that displays graphically the history behind each change, both what is the "common ancestry"
+    between two commits and which changes are independent between them.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
-Git's automatic merging saves time.
-Whenever it has a question about whether it should auto merge it makes you resolve the conflict manually.
-Git could try to automatically merge more than it does, but it might make mistakes.
-So I think the tradeoff made now, is about as good a balance as can be had between time savings and correct merging results.
+
+    Git's automatic merging saves time.
+    Whenever it has a question about whether it should auto merge it makes you resolve the conflict manually.
+    Git could try to automatically merge more than it does, but it might make mistakes.
+    So I think the tradeoff made now, is about as good a balance as can be had between time savings and correct merging results.
