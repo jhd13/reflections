@@ -41,4 +41,16 @@ How would you collaborate without using Git or GitHub? What would be easier, and
     We'd probably resort to working on our own copy of the source files and letting each other know what piece we are working on.
     We'd need to make sure not to work in the same files.
     It would be close to impossible to get work done without major issues coming up due to conflicting changes.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+    Making changes directly in master is quicker than using a separate branch.
+    That makes it easier.
+    And that might work when you're making changes four yourself or maybe on a very small team
+    But maybe if you're working on a team making changes in a branch is safer.
+    After a pull request, other team members can pull your changes locally without affecting their master, then give you feedback.
+    Changes on master should only be ones that leave master as a "perfect" branch.
+    Other changes may occur on master while your change is outstanding. 
+    In that case, when it makes sense you can merge master into your branch.
+    This then leaves your change as the only change outstanding and you can check in your change after incorporating team feedback.
     
