@@ -12,3 +12,13 @@ Why might you want to always pull changes manually rather than having Git automa
     Remote changes might conflict with my changes.
     Manual pull allows me to choose when I'm ready to accept someone else's changes locally,
     including doing that at a time that is a good stopping point for my other work.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+    A fork is a copy of a repo from one GitHub user's account on another user's account.
+    It's like a clone but it includes a trace back to the original user's repo.
+    You'd want to use a fork to separately publish changes to a repo while still giving props to the original code owner.
+    You'll still likely need a local clone where you'll make changes.
+    And branches may come in handy for the purposes described earlier in lesson 2 reflections.
+    It's not that you would want to use one "instead of" another.
+    Instead, it's about where in your process you will use which of these similar concepts.
